@@ -11,7 +11,7 @@ const Home = ({ onNavigate }) => {
       id: 'K-1',
       name: 'Naval RX 78',
       price: 4100,
-      image: 'public/images/navalrx78.png',
+      image: '/images/navalrx78.png',
       category: 'Kiddies Cars',
       features: ['Música MP3', 'Efectos de Sonido', 'Luces LED'],
       specs: {
@@ -24,7 +24,7 @@ const Home = ({ onNavigate }) => {
       id: 'K-2',
       name: 'Tigre Ride-On',
       price: 4300,
-      image: 'public/images/tigreride.png',
+      image: '/images/tigreride.png',
       category: 'Kiddies Cars',
       features: ['Música MP3', 'Efectos de Sonido', 'Diseño de Tigre'],
       specs: {
@@ -37,7 +37,7 @@ const Home = ({ onNavigate }) => {
       id: 'K-7',
       name: 'Montable Fox',
       price: 2700,
-      image: 'public/images/foxride.png',
+      image: '/images/foxride.png',
       category: 'Montables',
       features: ['Pantalla MP5', 'Monedero Programable', 'Audio/Video'],
       specs: {
