@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import Home from './components/Home.jsx';
 import Products from './components/Products.jsx';
 import Contact from './components/Contact.jsx';
-import Home from './components/Home.jsx';
 import './App.css';
 
 function App() {
