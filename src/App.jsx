@@ -5,15 +5,15 @@ import Home from './components/Home.jsx';
 import './App.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('home');
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'Home':
+      case 'home':
         return <Home onNavigate={setCurrentPage} />;
-      case 'Products':
+      case 'products':
         return <Products onNavigate={setCurrentPage} />;
-      case 'Contact':
+      case 'contact':
         return <Contact onNavigate={setCurrentPage} />;
       default:
         return <Home onNavigate={setCurrentPage} />;
