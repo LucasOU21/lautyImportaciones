@@ -7,7 +7,7 @@ const Navigation = ({ onNavigate, currentPage }) => {
     <header className="header">
       <div className="header-content">
         <div className="logo">
-          <img src="src/assets/images/RocketLogo.png" alt="Lauty Logo" className="logo-image" />
+          <img src="/public/images/RocketLogo.png" alt="Lauty Logo" className="logo-image" />
           <h1>Lauty Importaciones</h1>
         </div>
         

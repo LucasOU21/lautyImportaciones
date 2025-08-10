@@ -15,7 +15,7 @@ const Products = ({ onNavigate }) => {
       name: 'Naval RX 78',
       price: 4100,
       category: 'kiddies-cars',
-      image: './public/images/navalrx78.png',
+      image: '/public/images/navalrx78.png',
       specs: {
         material: 'PP Reforzado',
         battery: '12V20AH*2',
@@ -31,7 +31,7 @@ const Products = ({ onNavigate }) => {
       name: 'Tigre Ride-On',
       price: 4300,
       category: 'kiddies-cars',
-      image: './public/images/tigreride.png',
+      image: '/public/images/tigreride.png',
       specs: {
         material: 'PP Reforzado',
         battery: '12V20AH*2',
@@ -113,7 +113,7 @@ const Products = ({ onNavigate }) => {
       name: 'Montable Fox',
       price: 2700,
       category: 'montables',
-      image: './public/images/foxride.png',
+      image: '/public/images/foxride.png',
       specs: {
         material: 'Fibra de Vidrio',
         connection: '220V',
