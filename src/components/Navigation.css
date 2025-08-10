@@ -10,12 +10,6 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Dark theme for products page */
-.header-dark {
-  background: rgba(15, 15, 35, 0.95);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -72,21 +66,10 @@
   font-size: 1rem;
 }
 
-/* Dark theme nav links */
-.header-dark .nav-link {
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .nav-link:hover,
 .nav-link.active {
   color: #1a202c;
   background: rgba(0, 0, 0, 0.05);
-}
-
-.header-dark .nav-link:hover,
-.header-dark .nav-link.active {
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .nav-link.active::after {
@@ -121,19 +104,9 @@
   justify-content: center;
 }
 
-/* Dark theme icon buttons */
-.header-dark .icon-btn {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
-}
-
 .icon-btn:hover {
   background: rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
-}
-
-.header-dark .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
 }
 
 .cart-count {

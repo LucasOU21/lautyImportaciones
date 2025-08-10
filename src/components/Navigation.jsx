@@ -1,11 +1,10 @@
 import React from 'react';
-import './Navigation.css';
 import { ShoppingCart, User } from 'lucide-react';
+import './Navigation.css';
 
-
-const Navigation = ({ onNavigate, currentPage, theme = 'light' }) => {
+const Navigation = ({ onNavigate, currentPage }) => {
   return (
-    <header className={`header ${theme === 'dark' ? 'header-dark' : ''}`}>
+    <header className="header">
       <div className="header-content">
         <div className="logo">
           <img src="src/assets/images/RocketLogo.png" alt="Lauty Logo" className="logo-image" />

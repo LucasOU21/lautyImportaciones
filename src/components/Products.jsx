@@ -343,7 +343,7 @@ const Products = ({ onNavigate }) => {
   return (
     <div className="products-container">
       {/* Navigation */}
-      <Navigation onNavigate={onNavigate} currentPage="products" theme="dark" />
+      <Navigation onNavigate={onNavigate} currentPage="products" />
 
       {/* Products Content */}
       <main className="products-main">
