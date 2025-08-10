@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import Home from './components/Home';
-import Products from './components/Products';
-import Contact from './components/Contact';
+import Products from './components/Products.jsx';
+import Contact from './components/Contact.jsx';
+import Home from './components/Home.jsx';
 import './App.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'home':
+      case 'Home':
         return <Home onNavigate={setCurrentPage} />;
-      case 'products':
+      case 'Products':
         return <Products onNavigate={setCurrentPage} />;
-      case 'contact':
+      case 'Contact':
         return <Contact onNavigate={setCurrentPage} />;
       default:
         return <Home onNavigate={setCurrentPage} />;
