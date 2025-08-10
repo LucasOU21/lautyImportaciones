@@ -15,7 +15,7 @@ const Products = ({ onNavigate }) => {
       name: 'Naval RX 78',
       price: 4100,
       category: 'kiddies-cars',
-      image: 'src/assets/images/navalrx78.png',
+      image: './public/images/navalrx78.png',
       specs: {
         material: 'PP Reforzado',
         battery: '12V20AH*2',
@@ -31,7 +31,7 @@ const Products = ({ onNavigate }) => {
       name: 'Tigre Ride-On',
       price: 4300,
       category: 'kiddies-cars',
-      image: 'src/assets/images/tigreride.png',
+      image: './public/images/tigreride.png',
       specs: {
         material: 'PP Reforzado',
         battery: '12V20AH*2',
@@ -113,7 +113,7 @@ const Products = ({ onNavigate }) => {
       name: 'Montable Fox',
       price: 2700,
       category: 'montables',
-      image: 'src/assets/images/foxride.png',
+      image: './public/images/foxride.png',
       specs: {
         material: 'Fibra de Vidrio',
         connection: '220V',
@@ -317,7 +317,7 @@ const Products = ({ onNavigate }) => {
       name: 'Canasta Mini Basquet',
       price: 800,
       category: 'mesas-basquet',
-      image: 'src/assets/images/minibasquet.png',
+      image: './public/images/minibasquet.png',
       specs: {
         material: 'Plástico Reforzado',
         height: '1.2-1.8 M Ajustable',
